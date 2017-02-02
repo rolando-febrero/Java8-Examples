@@ -1,0 +1,31 @@
+package com.rolandoFebrero;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Hello_Java8_2 {
+
+	public static void main(String[] args) {
+		
+		// Applying 0.06% VAT on each purchase 
+		// Old way:		
+		List<Integer> costBeforeTax = Arrays.asList(100, 200, 300, 400, 500); 
+		double total = 0; 
+		for (Integer cost : costBeforeTax) 
+		{ 
+			double price = cost + .06*cost; 
+			total = total + price; 
+		} 
+		System.out.println("Total : " + total);
+		
+		
+		// New way: 
+		List<Integer> costBeforeTax2 = Arrays.asList(100, 200, 300, 400, 500); 
+		double bill = costBeforeTax2.stream().map((cost) -> cost + .06*cost)
+				.reduce((sum, cost) -> sum + cost).get(); 
+		System.out.println("Total : " + bill); 
+
+		
+	}
+
+}

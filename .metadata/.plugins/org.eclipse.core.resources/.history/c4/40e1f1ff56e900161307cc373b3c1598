@@ -1,0 +1,19 @@
+package com.rolandoFebrero;
+
+import java.util.function.Predicate;
+
+public class Hello_Java8_5 {
+
+	public static void main(String[] args) {
+		Predicate<String> startsWithJ = (n) -> n.startsWith("J"); 
+		Predicate<String> fourLetterLong = (n) -> n.length() == 4; 
+		
+		names.stream() 
+			.filter(startsWithJ.and(fourLetterLong)) 
+			.forEach((n) -> System.out.print("\nName, which starts with 'J' and four letter long is : " + n));
+
+				
+
+	}
+
+}

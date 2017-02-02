@@ -1,0 +1,15 @@
+package com.rolandoFebrero;
+
+import java.awt.List;
+import java.util.Arrays;
+
+public class Hello_Java8 {
+
+	public static void main(String[] args) {
+		List languages = Arrays.asList("Java", "Scala", "C++", "Haskell", "Lisp");
+
+		
+
+	}
+
+}

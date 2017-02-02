@@ -1,0 +1,20 @@
+package com.rolandoFebrero;
+
+public class Hello_Java8_8 {
+
+	/**
+	 * 	Applying function on Each element of List
+		We often need to apply certain function to each element of 
+		List e.g. multiplying each element by certain number or dividing it, 
+		or doing anything with that. Those operations are perfectly suited 
+		for map() method, you can supply your transformation logic to map() method 
+		as lambda expression and it will transform each element of that 
+		collection, as shown in below example.
+	 */
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
