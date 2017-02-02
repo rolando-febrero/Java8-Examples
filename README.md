@@ -5,3 +5,12 @@ which will take 6 lines of code and most important line, which defines the behav
 Lambda expression replaces anonymous classes and removes all boiler plate, enabling you to write code in 
 functional style, which is some time more readable and expression.
 
+In this repo you'll find some basic exercises that will help you understand all this new "function programming". 
+
+Just donwload and run the classes. 
+
+Tools needed:
+- Eclipse
+- Java 8 (obviously) -__-
+
+
